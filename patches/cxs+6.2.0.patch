@@ -1,7 +1,16 @@
 diff --git a/node_modules/cxs/dist/index.js b/node_modules/cxs/dist/index.js
-index 2fc345c..45d39ef 100644
+index 2fc345c..ea8edc0 100644
 --- a/node_modules/cxs/dist/index.js
 +++ b/node_modules/cxs/dist/index.js
+@@ -1,7 +1,7 @@
+ 'use strict';
+ 
+ var cache = {};
+-var prefix = 'x';
++var prefix = 'edo-embedded-';
+ var rules = [];
+ var insert = function insert(rule) {
+   return rules.push(rule);
 @@ -64,9 +64,21 @@ module.exports.prefix = function (val) {
    return prefix = val;
  };
