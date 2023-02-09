@@ -3,7 +3,7 @@ import {BREAKPOINTS} from 'src/components/widget/theme/breakpoints';
 import {Radii} from 'src/components/widget/theme/radii';
 import {Spacing} from 'src/components/widget/theme/spacing';
 
-cxs.prefix('edoWidgetCard-');
+// cxs.prefix('edoWidgetCard-');
 export const widgetCss = (height: number | null) =>
 	cxs({
 		background: 'white',

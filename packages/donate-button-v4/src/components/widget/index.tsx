@@ -23,7 +23,7 @@ import {
 	NonprofitFetching
 } from 'src/components/widget/types/Nonprofit';
 
-cxs.prefix('edoWidget-');
+// cxs.prefix('edoWidget-');
 
 const Widget = () => {
 	const {fundraiserSlug} = useConfigContext();

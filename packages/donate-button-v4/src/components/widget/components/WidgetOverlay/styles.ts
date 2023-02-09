@@ -3,7 +3,7 @@ import {BREAKPOINTS} from 'src/components/widget/theme/breakpoints';
 import {FontFamily} from 'src/components/widget/theme/font-family';
 import {Spacing} from 'src/components/widget/theme/spacing';
 
-cxs.prefix('edoWidgetOverlay-');
+// cxs.prefix('edoWidgetOverlay-');
 export const overlayCss = cxs({
 	position: 'fixed',
 	height: 'auto',

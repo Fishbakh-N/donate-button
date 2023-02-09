@@ -1,5 +1,3 @@
-// import cxs from 'cxs';
-
 import cxs from 'cxs';
 import {BREAKPOINTS} from 'src/components/widget/theme/breakpoints';
 import {COLORS} from 'src/components/widget/theme/colors';

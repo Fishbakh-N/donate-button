@@ -3,7 +3,7 @@ import {FunctionalComponent} from 'preact';
 import {BREAKPOINTS} from 'src/components/widget/theme/breakpoints';
 import {Spacing} from 'src/components/widget/theme/spacing';
 
-cxs.prefix('edoWidgetGrid-');
+// cxs.prefix('edoWidgetGrid-');
 const gridCss = cxs({
 	display: 'grid',
 	gridGap: 0,
